@@ -1,3 +1,3 @@
-running=`genie --is-running`
-echo $running
-if [ $running == "running" ]; then echo "true" ; else genie -s; fi
+isRunning=`genie --is-running`
+echo $isRunning
+if [ $isRunning == "running" ]; then echo "true" ; else genie -s; fi
